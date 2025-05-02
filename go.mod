@@ -1,6 +1,9 @@
+// Deprecated: use github.com/ddflare/ddflare instead.
 module github.com/fgiudici/ddflare
 
 go 1.22
+
+retract [v0.0.0-0, v0.5.1]
 
 require (
 	github.com/cloudflare/cloudflare-go v0.107.0
